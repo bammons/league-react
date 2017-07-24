@@ -1,0 +1,23 @@
+$primary-color: #941C2F; // Dark red
+$secondary-color: #3A4E48; // Army Green?
+$tertiary-color: #2D728F; // Blue
+$black: #03191E;
+$light-gray: #DAD6D6;
+
+.button--primary {
+  position: relative;
+  padding: 5px 15px;
+  height: 40px;
+  font-size: 16px;
+  color: $tertiary-color;
+  text-align: center;
+  background: white;
+  border: 1px solid $tertiary-color;
+  cursor: pointer;
+}
+
+.button--primary:hover {
+  font-size: 16px;
+  color: white;
+  background-color: $tertiary-color;
+}
